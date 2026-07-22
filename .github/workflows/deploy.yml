@@ -19,7 +19,7 @@ jobs:
           channel: 'stable'
 
       - run: flutter pub get
-      - run: flutter build web --release --base-href /Pruebaindustrial/
+      - run: flutter build web --release --base-href /pruebaindustrial/
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
